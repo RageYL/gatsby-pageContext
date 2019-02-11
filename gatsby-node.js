@@ -31,12 +31,6 @@ exports.createPagesStatefully = async ({ store, actions, reporter }) =>
 
 			console.log(entry.data)
 
-			deletePage(
-			{
-				path     : `/`,
-				component: `${__dirname}/src/templates/template.js`,
-			})
-
 			createPage(
 			{
 				path     : `/`,
